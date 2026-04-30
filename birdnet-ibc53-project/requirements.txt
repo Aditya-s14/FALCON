@@ -1,0 +1,24 @@
+# BirdNET + IBC53 Project Dependencies
+# Python 3.11 required (3.12 acceptable, NOT 3.10 or 3.13)
+#
+# Install: pip install -r requirements.txt
+
+# Core — BirdNET with training support
+birdnet-analyzer[train]==2.4.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Kaggle CLI (for downloading IBC53)
+kaggle>=1.6.0
+
+# Optional: hyperparameter tuning
+keras-tuner>=1.4.0

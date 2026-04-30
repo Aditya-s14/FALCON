@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+birdnet-ibc53-project/venv/
+
+# Large local datasets / artifacts
+birdnet-ibc53-project/data/
+birdnet-ibc53-project/models/
+birdnet-ibc53-project/results/
+birdnet-ibc53-project/logs/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temp artifacts
+*.log
+tmp/
+temp/
